@@ -1,0 +1,7 @@
+project_id = "szexmljvaoiufxjvvehy"
+
+[functions.analyze-report]
+verify_jwt = false
+
+[functions.verify-face]
+verify_jwt = false
