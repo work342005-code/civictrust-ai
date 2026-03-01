@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Shield, Menu, X, BarChart3, Map, FileText, Users, LogIn, LayoutDashboard } from "lucide-react";
+import { Shield, Menu, X, BarChart3, Map, FileText, Users, LogIn, LayoutDashboard, MapPin, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -9,6 +9,8 @@ const navItems = [
   { path: "/projects", label: "Projects", icon: BarChart3 },
   { path: "/map", label: "Map View", icon: Map },
   { path: "/reports", label: "Reports", icon: FileText },
+  { path: "/reports-map", label: "Reports Map", icon: MapPin },
+  { path: "/submit-report", label: "Submit", icon: Plus },
   { path: "/admin", label: "Admin", icon: Users },
 ];
 

@@ -9,6 +9,8 @@ import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import MapView from "./pages/MapView";
 import Reports from "./pages/Reports";
+import ReportsMap from "./pages/ReportsMap";
+import SubmitReport from "./pages/SubmitReport";
 import AdminPanel from "./pages/AdminPanel";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/projects/:id" element={<ProjectDetail />} />
           <Route path="/map" element={<MapView />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/reports-map" element={<ReportsMap />} />
+          <Route path="/submit-report" element={<SubmitReport />} />
           <Route path="/admin" element={<AdminPanel />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
